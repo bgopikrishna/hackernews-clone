@@ -1,8 +1,19 @@
+* {
+  text-transform: capitalize;
+}
+
 .page {
   margin: 20px;
 }
 .interactions {
   text-align: center;
+}
+.more {
+  text-align: center;
+  color: black;
+}
+.more button {
+  background: #FF742B;
 }
 .table {
   margin: 20px 0;
