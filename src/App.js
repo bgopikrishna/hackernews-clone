@@ -3,7 +3,8 @@ import axios from "axios";
 import { sortBy } from "lodash";
 import "./App.css";
 import PropTypes from "prop-types";
-import classNames from "classnames";
+// import classNames from "classnames";
+var classNames = require('classnames');
 
 const DEFAULT_QUERY = "react";
 const PATH_BASE = "https://hn.algolia.com/api/v1";
