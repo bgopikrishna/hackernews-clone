@@ -17,6 +17,7 @@
 }
 .table {
   margin: 20px 0;
+  text-align: center;
 }
 .table-header {
   display: flex;
@@ -24,6 +25,9 @@
   font-size: 16px;
   padding: 0 10px;
   justify-content: space-between;
+  width: 88%;
+  font-weight: bolder;
+
 }
 .table-empty {
   margin: 200px;
@@ -62,4 +66,10 @@
 .button-active {
   border-radius: 0;
   border-bottom: 1px solid #38bb6c;
+}
+
+@media (max-width: 800px) {
+  .page {
+    margin: 20px 0;
+  }
 }
