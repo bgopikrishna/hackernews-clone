@@ -3,8 +3,8 @@ import axios from "axios";
 import { sortBy } from "lodash";
 import "./App.css";
 import PropTypes from "prop-types";
-// import classNames from "classnames";
-var classNames = require('classnames');
+// import classNames from "classnames"; 
+//classNames Module Not Working show error on deploying in netlify
 
 const DEFAULT_QUERY = "react";
 const PATH_BASE = "https://hn.algolia.com/api/v1";
@@ -296,12 +296,13 @@ const Button = ({ onClick, className = "", children }) => {
   );
 };
 const Sort = ({ sortKey, activeSortkey, onSort, children }) => {
-  const sortClass = classNames("button-inline", {
-    "button-active": sortKey === activeSortkey
-  });
+  const sortClass = ['button-inline'];
+  if (sortKey === activeSortkey) {
+    sortClass.push('button-active');
+    }
 
   return (
-    <Button onClick={() => onSort(sortKey)} className={sortClass}>
+    <Button onClick={() => onSort(sortKey)} className={sortClass.join(' ')}>
       {children}
     </Button>
   );
