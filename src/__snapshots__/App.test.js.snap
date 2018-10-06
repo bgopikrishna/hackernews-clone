@@ -45,6 +45,10 @@ exports[`App has a valid snapshot  1`] = `
           type="button"
         >
           Title
+           
+          <i
+            className="fas fa-arrow-circle-down"
+          />
         </button>
       </span>
       <span
@@ -60,6 +64,10 @@ exports[`App has a valid snapshot  1`] = `
           type="button"
         >
           Author
+           
+          <i
+            className="fas fa-arrow-circle-down"
+          />
         </button>
       </span>
       <span
@@ -75,6 +83,10 @@ exports[`App has a valid snapshot  1`] = `
           type="button"
         >
           Comments
+           
+          <i
+            className="fas fa-arrow-circle-down"
+          />
         </button>
       </span>
       <span
@@ -90,6 +102,10 @@ exports[`App has a valid snapshot  1`] = `
           type="button"
         >
           Points
+           
+          <i
+            className="fas fa-arrow-circle-down"
+          />
         </button>
       </span>
     </div>
@@ -143,6 +159,10 @@ exports[`Table has a valid snapshot 1`] = `
         type="button"
       >
         Title
+         
+        <i
+          className="fas fa-arrow-circle-down"
+        />
       </button>
     </span>
     <span
@@ -158,6 +178,10 @@ exports[`Table has a valid snapshot 1`] = `
         type="button"
       >
         Author
+         
+        <i
+          className="fas fa-arrow-circle-down"
+        />
       </button>
     </span>
     <span
@@ -173,6 +197,10 @@ exports[`Table has a valid snapshot 1`] = `
         type="button"
       >
         Comments
+         
+        <i
+          className="fas fa-arrow-circle-down"
+        />
       </button>
     </span>
     <span
@@ -188,6 +216,10 @@ exports[`Table has a valid snapshot 1`] = `
         type="button"
       >
         Points
+         
+        <i
+          className="fas fa-arrow-circle-down"
+        />
       </button>
     </span>
   </div>
